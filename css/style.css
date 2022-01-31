@@ -1,0 +1,493 @@
+.banner{
+	position: fixed; 
+    top: 30px; 
+    left: 0;
+    width: 100%;
+    z-index: 99; 
+    box-shadow: 0px 6px 20px 0px rgb(96 61 5 / 8%);
+}
+.banner.sticky {
+    background-color: #fff;
+    top: 0;
+}
+.header{
+	position: relative;
+    background-image: url(../images/bg-1.jpg);
+    z-index: 999;
+    background-position: center;
+    padding: 30px;
+    background-size: cover;
+}
+.navbar-collapse{
+	justify-content: center;
+}
+.navbar-brand{
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #ec4090;
+    font-style: italic;
+}
+.navbar-nav .nav-link{
+	font-size: 20px	;
+	font-family: serif;
+	margin-left: 2px;
+    margin-right: 15px;
+    color: #000;
+}
+.top_bar_right_wrapper a{
+	position: relative;
+    text-decoration: none;
+    color: #fff;
+    background: #ec4090;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+}
+.top_bar_right_wrapper a:hover{
+    background: #fff;
+    color: #ec4090;
+    border: 2px solid #ec4090;
+    transition: 1.1s;
+}
+.banner-contant{
+	position: relative;
+    margin-top: 299px;
+    padding: 75px;
+}
+.banner-contant h1{
+	position: relative;
+    text-align: center;
+    color: #fff;
+    font-family: 'FontAwesome';
+    font-weight: 700;
+    line-height: 65px;
+    font-style: italic;
+}
+.banner-contant p{
+	position: relative;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-family: sans-serif;
+    line-height: 65px;
+}
+.explore a{
+	position: relative;
+    text-decoration: none;
+    background: #ec4090;
+    color: #fff;
+    padding: 15px 40px 15px 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid #ec4090;
+    line-height: 65px;
+}
+.explore a:hover{
+    background: #20c997;
+    transition: 1.1s;
+}
+.affordable{margin-top: 85px;}
+.affordable-contant h1{
+    position: relative;
+    font-family: serif;
+    font-size: 32px;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 65px;
+}
+.affordable-contant p{
+    position: relative;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #7c8595;
+    margin-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.affordable-contant{margin-top: 45px;}
+.benefits{
+    position: relative;
+    padding-left: 0;
+    list-style: none;
+}
+.benefits li a{
+    position: relative;
+    text-decoration: none;
+    color: #7c8595;
+    line-height: 35px;
+}
+.benefits li i{
+    font-size: 18px;
+    line-height: 18px;
+    margin-right: 1px;
+    color: #ec4090;
+}
+.discover a{
+    position: relative;
+    font-size: 20px;
+    background: #ec4090;
+    color: #fff;
+    padding: 15px 25px 15px 25px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid #ec4090;
+    line-height: 75px;
+}
+.discover a:hover{
+    background: #20c997;
+    transition: 1.1s;
+}
+.section-grey{
+    background: #f7fafa;
+    padding: 90px 0 45px 0;
+}
+.lear-image img{
+    border-radius: 15px;
+}
+.lear-contant h2{
+    position: relative;
+    font-family: emoji;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 35px;
+}
+.lear-contant h6{
+    position: relative;
+    font-size: 20px;
+    width: 100%;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+.lear-contant h6:after{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 3px;
+    background: #ec4090;
+}
+.lear-contant p{
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #7c8595;
+}
+.lear-contant h5{
+    position: relative;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 50px;
+}
+.our-service{margin-top: 85px;}
+.our-contant h1{
+    position: relative;
+    text-align: center;
+    font-family: serif;
+    font-weight: 500;
+    line-height: 65px;
+}
+.our-contant h5{
+    position: relative;
+    text-align: center;
+    color: #7c8595;
+}
+.discover-img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.discover-contant{margin-top: 20px;}
+.discover-contant h5{
+    position: relative;
+    text-align: center;
+    color: #ec4090;
+    font-size: 25px;
+    font-style: italic;
+    line-height: 45px;
+}
+.discover-contant p{
+    position: relative;
+    text-align: center;
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #7c8595;
+    margin-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.frequently-contant h1{
+    position: relative;
+    text-align: center;
+    font-family: serif;
+    font-weight: 600;
+    line-height: 65px;
+}
+.frequently-contant p{
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    color: #7c8595;
+    font-weight: 500;
+}
+.background-overlay{
+    background-image: url(../images/bg4.jpg);
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+}
+#bg-slider .owl-dots{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+#bg-slider .owl-dots button{
+    position: relative;
+    width: 25px;
+    height: 10px;
+    background: #fff;
+    border-radius: 10px;
+    margin: 5px;
+}
+#bg-slider .owl-dots button.active{
+    background-color: #ec4090;
+    margin-top: 65px;
+}
+.testim-inner{margin-top: 85px;}
+.testim-inner i{
+    font-size: 40px;
+    margin-bottom: 5px;
+    color: #fff;
+    text-shadow: 1px 1px #656565;
+}
+.testim-inner p{
+    text-align: center;
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-shadow: 1px 1px #656565;
+}
+.star-icon i{
+    font-size: 25px;
+    color: #fdcc28;
+    line-height: 45px;
+}
+.gallery{margin-top: 95px;}
+.gallery-contant h2{
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    line-height: 65px;
+}
+.gallery-contant p{
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+}
+.like-what h4{
+    position: relative;
+    text-align: center;
+    color: #a59f9f;
+    font-family: serif;
+    font-weight: 500;
+}
+.like-what span{
+    color: #ec4090;
+}
+.how-do{
+    background: #f7fafa;
+    padding: 90px 0 100px 0;
+}
+.how-contant h2{
+    position: relative;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #071e55;
+    font-weight: 500;
+}
+.how-contant p{
+    position: relative;
+    text-align: center;
+    line-height: 28px;
+    font-weight: 400;
+    color: #7c8595;
+    margin-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+.register i{
+    margin-bottom: 15px;
+    font-size: 50px;
+    color: #ec4090;
+}
+.register h4{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.register p{
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #7c8595;
+    margin-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.email-contant{
+    margin-top: 85px;
+}
+.email-contant p{
+    position: relative;
+    color: #9e9898;
+    line-height: 40px;
+}
+.form-group{
+    max-width: 575px;
+}
+.form-group .form-control{
+    width: 100% !important;
+    height: 52px !important;
+    padding-left: 8% !important;
+    padding-right: 7% !important;
+    margin-bottom: 15px !important;
+    color: #555 !important;
+    border: 1px solid #d2cdcd !important;
+    background-color: #eaeaea!important;
+    font-size: 16px !important;
+    border-radius: 5px 5px 5px 5px!important;
+}
+#cars{
+    width: 100% !important;
+    height: 52px !important;
+    padding-left: 8% !important;
+    padding-right: 7% !important;
+    margin-bottom: 15px !important;
+    color: #555 !important;
+    border: 1px solid #d2cdcd !important;
+    background-color: #eaeaea!important;
+    font-size: 16px !important;
+    border-radius: 5px 5px 5px 5px!important;
+    max-width: 575px;
+}
+.register-submit{
+    background: #ec4090;
+    border: none;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    width: 100%;
+    max-width: 535px;
+    padding: 16px 0;
+    text-transform: uppercase;
+    max-width: 575px;
+}
+.footer-top{margin-top: 75px;}
+.footer-top i{
+    margin-bottom: 10px;
+    color: #ec4090;
+    font-size: 60px;
+}
+.footer-top h5{
+    position: relative;
+    margin-top: 15px;
+    font-family: serif;
+    font-style: italic;
+    font-size: 25px;
+}
+.footer-top h6{
+    font-size: 17px;
+    color: #ec4090;
+    text-decoration: underline;
+}
+.footer-top p{
+    margin-bottom: 5px;
+    line-height: 24px;
+    color: #454545;
+    font-size: 18px;
+}
+.social-icon{
+    position: relative;
+    list-style: none;
+    padding-left: 0;
+}
+.social-icon li{
+    display: inline-block;
+}
+.social-icon li a{
+    font-size: 26px;
+    margin: 10px;
+}
+.social-icon li a:hover{
+    color: #ec4090;
+}
+.social-icon li .pinterest{
+    color: #C92228;
+}
+.social-icon li .facebook{
+    color: #3b5998;
+}
+.social-icon li .instagram{
+    color: #8a3ab9;
+}
+.footer-top a.footer-links{
+    display: block;
+    font-size: 17px;
+    margin-bottom: 2px;
+    color: #454545;
+}
+.footer-top a.footer-links:hover{
+    color: #ec4090;
+    transition: 1.1s;
+}
+
+@media(max-width: 991px){
+    .banner-contant{
+        margin-top: 90px;
+    }
+    .banner-contant h1{
+        line-height: 40px;
+    }
+    .banner-contant p{
+        line-height: 30px;
+    }
+}
+
+@media(max-width: 575px){
+    .banner-contant{
+        padding: 0;
+    }
+    .affordable-contant h1 {
+    position: relative;
+    font-family: serif;
+    font-size: 22px;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 65px;
+}
+.frequently-contant h1{
+    position: relative;
+    text-align: center;
+    font-family: serif;
+    font-weight: 600;
+    line-height: 65px;
+    font-size: 25px;
+}
+}
